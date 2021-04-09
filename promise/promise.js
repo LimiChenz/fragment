@@ -114,7 +114,6 @@ class Promise {
                 this.state = Promise.REJECTED
                 this.onRejectedCallbacks.forEach(cb => cb(this.reason))
             }, 0);
-
         }
     }
 

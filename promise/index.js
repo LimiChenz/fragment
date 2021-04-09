@@ -3,7 +3,9 @@
 let p = new Promise((resolve,reject) =>{
     // throw 'ERROR'
     console.log(3);
-    reject(456789)
-}).catch(err=>{
-    console.log(err);
+    resolve(456789)
+}).then( res =>{
+    return res
+}, err => {
+    return err
 })
