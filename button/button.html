@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Button</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="../cloneDeep.js"></script>
+  </head>
+  <body>
     <label class="switch">
-        <input type="checkbox" checked>
-        <div class="button">
-            <div class="light"></div>
-            <div class="dots"></div>
-            <div class="characters"></div>
-            <div class="shine"></div>
-            <div class="shadow"></div>
-        </div>
+      <input type="checkbox" checked />
+      <div class="button">
+        <div class="light"></div>
+        <div class="dots"></div>
+        <div class="characters"></div>
+        <div class="shine"></div>
+        <div class="shadow"></div>
+      </div>
     </label>
-</body>
+
+    <script>
+      function aaa() {
+        console.log("123456");
+      }
+
+      console.log(cloneFunction(aaa));
+    </script>
+  </body>
 </html>
